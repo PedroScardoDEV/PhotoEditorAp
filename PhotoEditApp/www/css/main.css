@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; } /* Reset muito básico, só para mexer melhor nas margens. */
+
+#background-app { height: 110vh; background-color: #333; } /* Definindo o fundo do aplicativo e sua cor. */
+
+#title-app h2 { color: #fff; } /* Apenas mudando a cor do título. */
+
+h2 { margin-top: 20px; } /* Posicionamento em relação à margem do documento. */
+
+#area-photo { height: 40vh; border: 1px solid #fff; } /* Definindo uma área onde a foto vai aparecer. */
+
+#photo {
+    width: 100%;
+    height: 100%;
+}
+
+form { margin-top: 25px; } /* Posicionamento em relação ao elemento acima deste. */
+
+button {
+    /* width: 60%; */
+    height: 50px;
+    margin-top: 25px;
+}
+
+.label-form { font-size: 18px; font-weight: 100; color: #fff; } /* Uma classe para estilizar todos elementos <label> do formulário. */
+

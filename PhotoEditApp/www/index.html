@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="background-app">
+                <div class="row">
+                    <div class="col-10 offset-2" id="title-app">
+                        <h2>Editor de Fotos</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1" id="area-photo">
+                        <img class="image-responsive" id="photo"></img>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <button class="btn btn-outline-light btn-block" id="camera">Câmera</button>
+                    </div>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-10 offset-1">
+                            <div class="form-group">
+                                <label for="saturation" class="label-form">Saturação</label>
+                                <input type="range" min="1" max="10" class="form-control-range" id="saturation">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 offset-1">
+                            <div class="form-group">
+                                <label for="contrast" class="label-form">Constraste</label>
+                                <input type="range" min="1" max="10" class="form-control-range" id="contrast">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 offset-1">
+                            <div class="form-group">
+                                <label for="opacity" class="label-form">Opacidade</label>
+                                <input type="range" min="1" max="10" class="form-control-range" id="opacity">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 offset-1">
+                            <div class="form-group">
+                                <label for="blur" class="label-form">Desfoque</label>
+                                <input type="range" min="1" max="10" class="form-control-range" id="blur">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- CDN's, Third part JS and my own scripts for use in interactions and funcionalities. -->
+    <script src="components/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="components/camera.js"></script>
+</body>
+
+</html>
